@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Bentham&display=swap");
+
+.testimonial {
+  width: 100%;
+  background-color: #f8f9fa;
+  height: 990px;
+}
+.testimonial__title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 0 40px 0;
+}
+.testimonial__title > h1 {
+  font-weight: 500;
+  font-size: 3rem;
+  line-height: 3.375rem;
+  letter-spacing: -1.4px;
+  text-align: center !important;
+}
+.testimonial__title > p {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  text-align: center;
+  letter-spacing: 0px;
+  font-family: "Bentham", serif;
+  margin-top: 20px;
+}
+.items {
+  display: flex;
+}
+.item__1 {
+  display: flex;
+  position: relative;
+}
+.item__2 {
+  display: flex;
+  margin: 0 30px;
+  margin-left: 300px;
+}
+.item2 img {
+  width: 375px;
+  height: 456px;
+  object-fit: cover;
+}
+.item__2 img {
+  width: 285px;
+  height: 356px;
+  object-fit: cover;
+}
+.img1 {
+  margin-right: 30px;
+}
+.item1 {
+  z-index: 9;
+
+  width: 600px;
+}
+.item1 > h1 {
+  padding: 50px;
+}
+.item1 > h5 {
+  padding: 0 50px;
+}
+.item1 > p {
+  padding: 0 50px;
+}
+
+.item2 {
+  position: absolute;
+  margin-left: 470px;
+}
+.company {
+  margin-top: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.companies {
+  padding: 40px;
+  border-top: 4px solid;
+  color: #142b6f;
+}
+.companies img {
+  height: 40px;
+  object-fit: contain;
+  margin-right: 50px;
+  cursor: pointer;
+}
+.companies img:hover {
+  opacity: 0.3;
+  transition: 0.3s ease-in;
+}

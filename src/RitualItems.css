@@ -1,0 +1,24 @@
+.ritual__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 60px;
+}
+.ritual__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  background-color: #f8f9fa;
+  margin-right: 30px;
+  cursor: pointer;
+}
+.ritual__item > img {
+  width: 300px;
+  object-fit: fill;
+}
+
+.ritual__name {
+  padding: 20px;
+}

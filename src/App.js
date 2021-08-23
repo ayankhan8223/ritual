@@ -1,23 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Nav from "./Nav.js";
+import RitualItems from "./RitualItems";
+import Dailyessential from "./Dailyessential ";
+import "./Item1";
+import Item1 from "./Item1";
+import Item2 from "./Item2";
+import Products from "./Products";
+import Item3 from "./Item3";
+import Testimonial from "./Testimonial";
+import Item4 from "./Item4";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Nav />
+      <img className="ritual__img" src="ritual1.png" alt="" />
+      <RitualItems />
+      <Dailyessential />
+      <Item1 />
+      <Item2 />
+      <Products />
+      <Item3 />
+      <Testimonial />
+      <Item4 />
     </div>
   );
 }
